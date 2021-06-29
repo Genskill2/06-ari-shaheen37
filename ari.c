@@ -1,5 +1,5 @@
 #include <cs50.h>
-
+#include <math.h>
 
 string ari(string inp)
 {
@@ -53,5 +53,6 @@ string ari(string inp)
     return "College student";
     if(score==14)
     return "Professor";
+    
 
 }
