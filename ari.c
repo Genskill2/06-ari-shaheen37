@@ -1,3 +1,6 @@
+#include <cs50.h>
+
+
 string ari(string inp)
 {
     int character=0,word=0,sentence=0;
