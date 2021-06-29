@@ -14,7 +14,7 @@ string ari(string inp)
             character++;
         }
 
-        if(inp[i] =='' )
+        if(inp[i] ==' ' )
         {
             word++;
         }
@@ -53,7 +53,7 @@ string ari(string inp)
     return "Twelfth grade";
     if(score==13)
     return "College student";
-    if(score==14)
+    if(score>=14)
     return "Professor";
 
 }
