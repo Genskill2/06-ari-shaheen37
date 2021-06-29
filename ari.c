@@ -5,19 +5,19 @@ string ari(string inp)
 {
     int character=0,word=0,sentence=0;
 
-    for(int i=0;inp[i] != "\0";i++)
+    for(int i=0;inp[i] != '\0';i++)
     {
         if(isalnum(inp[i]))
         {
             character++;
         }
 
-        if(inp[i] ==" ")
+        if(inp[i] =='' )
         {
             word++;
         }
         
-        if(inp[i]=="."||inp[i]=="!"||inp[i]=="?")
+        if(inp[i]=='.'||inp[i]=='!'||inp[i]=='?')
         {
             sentence++;
         }
@@ -53,6 +53,5 @@ string ari(string inp)
     return "College student";
     if(score==14)
     return "Professor";
-    
 
 }
